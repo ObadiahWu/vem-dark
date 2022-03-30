@@ -152,7 +152,7 @@ exec "highlight WildMenu       term=bold cterm=none ctermfg=". s:black ." ctermb
 exec "highlight MatchParen     term=reverse cterm=bold ctermfg=". s:red ." ctermbg=NONE guifg=#e5786d guibg=NONE gui=bold"
 
 " Current line & column
-exec "highlight CursorLine     term=reverse cterm=none ctermfg=" . s:line_fg . " ctermbg=". s:visual_bg ." guifg=NONE guibg=#404040 gui=none"
+exec "highlight CursorLine     term=underline cterm=underline ctermfg=none ctermbg=none guifg=NONE guibg=#404040 gui=none"
 exec "highlight ColorColumn    term=reverse cterm=none ctermfg=" . s:line_fg . " ctermbg=". s:visual_bg ." guifg=NONE guibg=#404040 gui=none"
 exec "highlight CursorColumn   term=underline cterm=none ctermfg=NONE ctermbg=". s:visual_bg ." guifg=NONE guibg=#404040 gui=none"
 exec "highlight QuickFixLine   term=underline cterm=none ctermfg=". s:white ." ctermbg=". s:visual_bg ." guifg=#ffffff guibg=#444444 gui=none"
