@@ -292,7 +292,7 @@ exec "highlight VemTablineNumberShown      term=reverse cterm=none ctermfg=". s:
 " exec "highlight VemTablineNumberShown      term=reverse cterm=none ctermfg=". s:tabline_fg ." ctermbg=". s:tabline_bg ." guifg=#666666 guibg=#cdcdcd gui=none"
 exec "highlight VemTablineSeparator        term=reverse cterm=none ctermfg=". s:grey ." ctermbg=". s:tabline_bg ." guifg=#888888 guibg=#cdcdcd gui=" . s:italic
 exec "highlight VemTablinePartialName      term=reverse cterm=none ctermfg=". s:grey ." ctermbg=". s:tabline_bg ." guifg=#888888 guibg=#cdcdcd gui=" . s:italic
-exec "highlight VemTablineTabNormal        term=reverse cterm=none ctermfg=". s:tabline_fg ." ctermbg=". s:tabline_bg ." guifg=#cdcdcd guibg=#4a4a4a gui=none"
+exec "highlight VemTablineTabNormal        term=reverse cterm=none ctermfg=". s:white ." ctermbg=". s:black ." guifg=#cdcdcd guibg=#4a4a4a gui=none"
 exec "highlight VemTablineTabSelected      term=bold cterm=bold ctermfg=". s:black ." ctermbg=". s:white ." guifg=#242424 guibg=#ffffff gui=bold"
 
 " ctrl-p
