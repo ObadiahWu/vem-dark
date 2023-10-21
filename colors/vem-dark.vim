@@ -142,8 +142,10 @@ exec "highlight LineNr         term=bold cterm=none ctermfg=". s:linenr_fg ." ct
 exec "highlight CursorLineNr   term=bold cterm=bold ctermfg=". s:white ." ctermbg=". s:linenr_bg ." guifg=#d6d3c8 guibg=#303030 gui=none"
 
 " Visual
-exec "highlight Visual         term=reverse cterm=none ctermfg=". s:visual_fg ." ctermbg=". s:visual_bg ." guifg=#ffffff guibg=#444444 gui=none"
+exec "highlight Visual         term=reverse cterm=none ctermfg=". s:white ." ctermbg=". s:blue ." guifg=#ffffff guibg=#444444 gui=none"
 exec "highlight VisualNOS      term=reverse cterm=none ctermfg=". s:visual_fg ." ctermbg=". s:visual_bg ." guifg=#ffffff guibg=#444444 gui=none"
+" exec "highlight Visual         term=reverse cterm=none ctermfg=". s:visual_fg ." ctermbg=". s:visual_bg ." guifg=#ffffff guibg=#444444 gui=none"
+" exec "highlight VisualNOS      term=reverse cterm=none ctermfg=". s:visual_fg ." ctermbg=". s:visual_bg ." guifg=#ffffff guibg=#444444 gui=none"
 
 " Search
 exec "highlight Search         term=bold cterm=none ctermfg=". s:black ." ctermbg=". s:yellow ." guifg=#101010 guibg=#d7ff87 gui=none"
